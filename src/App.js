@@ -1,26 +1,19 @@
 // import logo from './logo.svg';
 // import './App.css';
+import ColorPicker from "./Componentes.js/ColorPicker";
+import Footer from "./Componentes.js/Footer";
 
 //azucar sintactico: JSX => JS + HTML/XML
 
 function App() {
 
   return (
-    <div className="App">
-      <header className="App-header">
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-         hOLA A TODAS
-        </a>
-      </header>
-    </div>
+    <div>
+      <ColorPicker/>
+       <Footer/>
+     </div>
+     
+    
   );
 }
 
